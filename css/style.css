@@ -1,0 +1,137 @@
+body{
+	background-color: rgb(0, 68, 3);
+}
+
+.wrapper{
+	border-radius: 30px; 
+	max-width: 1300px; 
+	margin: 0 auto; 
+	background-color: rgb(254, 255, 204);
+	margin-top: 50px;
+	padding: 90px ;
+	font-family: "Montserrat";
+	margin-bottom: 60px; 
+}
+
+.title{
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: rgb(110, 187, 255);
+	text-shadow:  rgb(145, 203, 255) 5px 5px 5px;
+}
+
+[class*=__text]{
+	font-size: 20px;
+	margin-bottom:50px; 
+} 
+
+mark{
+	background-color: rgb(110, 187, 255);
+	color: aliceblue;
+}
+
+mark:hover{
+	background-color: plum;
+}
+
+.link{
+	color: rebeccapurple;
+	background-color: rgb(105, 199, 199);
+	border-radius: 10px; 
+	word-spacing: 5px;
+	text-decoration: underline;
+}
+
+.link:hover{
+	color: white;
+	text-transform: uppercase;
+}
+
+.conteiner__img{
+	background: url('../img/New_York_1_1.jpg') 0 0 no-repeat; 
+	width: 1000px;
+	height: 500px;
+	border-radius: 80px 0px 80px 0px; 
+	outline:  15px rgb(51, 0, 17) solid;
+	border:  10px palevioletred solid;
+	margin-bottom: 60px;
+	max-width: 100%; 
+}
+
+
+.bottom__img{
+	background: url('../img/7-lacul-ochiul-beiului.jpg') 0px 0px no-repeat; 
+	width: 100px;
+	height: 100px;
+	max-width: 100%;
+	border-radius: 100px; 
+	margin: -25px 0px 50px 870px;
+}
+
+.bottom__img:hover{
+	background: url('../img/a.jpeg') 0 0 / contain no-repeat; 
+	box-shadow: inset 3px 3px 20px 5px rgb(240, 207, 255) ;
+}
+
+ol{
+	margin-left: 20px;
+	margin-bottom: 20px; 
+	counter-reset: item;
+}
+
+ol li::before{
+	counter-increment: item;
+	content: counter(item)")";
+	color: cornflowerblue;
+	font-weight: 700;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+ol li:hover::before{
+	transform: scale(1.5);
+	content: "";
+}
+
+.button{
+	width: 300px;
+	height: 70px;
+	background-color: cornflowerblue;
+	text-transform: uppercase;
+	border-radius: 83% 17% 67% 33% / 54% 29% 71% 46% ; 
+	color: white;
+	box-shadow: rgb(71, 131, 241) -10px 10px;
+	margin-top: 50px;
+	margin-left: 400px;
+	border: 5px plum solid;
+}
+
+.button:hover{
+	background-color: slateblue;
+	box-shadow:rgb(68, 44, 221) -10px 10px;
+	font-size: 25px;
+}
+
+.button:active{
+	background-color: palevioletred;
+	box-shadow: 0 2px 0 rgb(238, 61, 120);
+	margin-top: 3px;
+	font-size: 35px;
+	border: 5px rgb(85, 57, 85) solid;
+}
+
+.content__silect li::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: palegreen;
+	display: inline-block;
+	margin: 15px 10px 0px 0px;
+}
+
+.content__silect{
+	margin: 20px 0px 0px 0px;
+}
+

@@ -1,0 +1,100 @@
+body{
+	background-color: rgb(253, 173, 173);
+}
+
+.body__conteiner{
+	background-color: royalblue;
+	border-radius: 30px; 
+	max-width: 1300px; 
+	margin: 0 auto; 
+	margin-top: 50px;
+	padding: 90px ;
+	font-family: "Montserrat";
+	margin-bottom: 60px; 
+	color: white;
+}
+
+p{
+	max-width: 800px;
+	margin-bottom: 25px;
+}
+
+.text__3{
+	opacity: 0;
+	visibility: hidden;
+}
+
+.main__content-text:hover .text__3{
+	opacity: 1;
+	visibility: visible;
+}
+
+.content__silect a:visited{
+	color: palegreen;
+}
+
+
+main{
+	background: rgb(2,0,36);
+	background: linear-gradient(288deg, rgba(2,0,36,1) 0%, rgba(118,125,255,1) 0%, rgba(121,150,255,1) 0%, rgba(79,106,255,1) 0%, rgba(140,140,255,1) 51%, rgba(93,149,250,1) 76%, rgba(0,212,255,1) 100%);
+	border-radius: 30px; 
+	max-width: 1300px; 
+	margin: 0 auto; 
+	margin-top: 50px;
+	padding: 16px ;
+	font-family: "Montserrat";
+	margin-bottom: 60px; 
+	color: white;
+}
+
+.image-work2{
+	background: url('../img/h.jpg') 0 0 no-repeat;
+	padding: 260px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.image{
+	background: url("../img/7-lacul-ochiul-beiului.jpg")  repeat;
+	height: 1200px;
+	margin-bottom: 20px; 
+}
+
+.image-work{
+	background: url('../img/h.jpg') 0 0 repeat-x; 
+	width: 1000px;
+	padding: 150px;
+}
+
+.image-new{
+	background: url('../img/kartinki-koty-iz-multikov_19.jpg') 0 0 repeat-y; 
+	padding: 500px;
+}
+
+.image-cat{
+	background: url('../img/a.jpeg') 0 0 no-repeat; 
+	padding: 256px;
+	margin-top: 20px; 
+	background-position: center;
+}
+
+.image-anime{
+	background: url('../img/best-discord-profile-pictures-7.webp') 0 0 no-repeat; 
+	padding: 256px;
+	margin-top: 20px; 
+	background-position: 230px 50px;
+}
+
+.image-new2{
+	background: url('../img/kartinki-koty-iz-multikov_19.jpg') 0 0 no-repeat; 
+	padding: 500px;
+	background-position: 50%;
+	background-size: cover;
+	margin-bottom: 20px; 
+}
+
+.image2{
+	background: url("../img/7-lacul-ochiul-beiului.jpg") 0 0 no-repeat;
+	padding: 500px;
+	background-position: 50%;
+	background-size: contain;
+}
